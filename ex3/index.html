@@ -4,11 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Operadores JS</title>
+    <title>primeiros passos com DOOM</title>
+    <style>
+        body{
+            background-color: rgb(121, 121, 248);
+            font: 1.5em arial;
+            color: white;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.37);
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
+     <h1>Iniciando estudos, DOOM</h1>
+     <p id="msg">Aqui vai o resultado</p>
+     <div>clique em mim</div>
+
     <script>
-        
+        // modificando elemento por marca
+       var p1 = window.document.getElementsByTagName('div')[0]
+       p1.style.color = 'red'
+       
+       // modificando elemento por id
+       var m1 = window.document.getElementById('msg')  
+       m1.innerText = 'usando Java Script'
+
+       // modificando elemento por seletor
+       var m = window.document.querySelector('p#msg')
+       m.style.color = 'blue'
+
     </script>
 </body>
 </html>
