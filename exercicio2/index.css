@@ -1,0 +1,24 @@
+@charset "TTF - 8";
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gideon+Roman&display=swap');
+
+body{
+    background-color: rgb(65, 141, 255);
+}
+header{
+    text-align: center;
+    font-size: 2em;
+    font-weight: lighter;
+    font-family: 'Abril Fatface', cursive;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+    color: white;
+    
+
+}
+main{
+    margin: auto;
+    background-color: white;
+    width: 450px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+}

@@ -12,7 +12,7 @@ header{
     font-family: 'Abril Fatface', cursive;
     font-size: 2em;
     font-weight: lighter;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+    text-shadow: 5px 5px 10px black;
 }
 
 #msg{
@@ -31,7 +31,7 @@ main{
 
 div{
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 footer{
