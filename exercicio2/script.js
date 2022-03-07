@@ -1,17 +1,19 @@
-var data = new Date()
-var ano = data.getFullYear()
-var mes = data.getMonth()
-var fano = document.getElementById ('txtano')
-var fmes = document.getElementById('txt1')
-var res = document.getElementById ('resul')
-var fsex = document.getElementsByTagName('radsex')
-
-   function verificar(){
-   if(fano.value.length == 0 || fano.value > ano){
+    function verificar(){
+    var data = new Date()
+    var ano = data.getFullYear()
+    var fano = document.getElementById ('txtano')
+    var res = document.getElementById ('resul')
+    if(fano.value.length == 0 || Number(fano.value) > ano){
         window.alert('Erro, Verifique seus Dados!')
-   }else{
-       var idade = ano - fano.value
-       var meses = fmes.value - mes
-       res.innerHTML = `idade calculada ${idade} anos e ${meses} meses`
-   }
+    }else{
+    var fsex = document.getElementsByTagName('radsex')
+    var idade = ano - Number(fano.value)
+    
+    if(fsex[0].checked){
+        genero = 'Homem'
+    }else if(fsex[1].checked){
+        genero = 'Mulher'
+    }
+        res.innerHTML = `Detectamos  ${idade}`
+    }
 }
