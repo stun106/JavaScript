@@ -1,0 +1,22 @@
+@charset "UTF - 8";
+
+body{
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(55, 180, 252);
+}
+
+header{
+    text-align: center;
+    margin: 20px;
+}
+
+main{
+    width: 350px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
