@@ -6,7 +6,7 @@ var res = document.getElementById('res')
 var n1 = Number(inicio.value)
 var n2 = Number(fim.value)
 var p = Number(passo.value)
-if(inicio.value.lenght == 0 || fim.value.length == 0|| passo.value.lenght == 0){
+if(inicio.value.lenght == 0 || fim.value.length == 0 || passo.value.lenght == 0){
     window.alert('[ERRO] Verifique seus dados e tente novamente !')
 }else{
     res.innerHTML = 'contando:'
